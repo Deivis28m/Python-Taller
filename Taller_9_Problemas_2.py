@@ -11,5 +11,4 @@ def getPerimetro(radio):
 N = int(input(""))
 for i in range(N):
     radio = (input(""))
-    print(f"Circulo {i+1} : su perimetros es {float(getPerimetro(radio)):.2f} y su area es {float(getArea(radio)):.2f}")
-    
+    print(f"Circulo {i+1} : su perimetros es {round(getPerimetro(radio), 2)} y su area es {round(getArea(radio), 2)}") 
